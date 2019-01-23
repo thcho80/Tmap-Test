@@ -11,7 +11,6 @@
 		6516427D21F804CA00F29B16 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6516427C21F804CA00F29B16 /* FirstViewController.m */; };
 		6516428021F804CA00F29B16 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6516427F21F804CA00F29B16 /* SecondViewController.m */; };
 		6516428321F804CA00F29B16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6516428121F804CA00F29B16 /* Main.storyboard */; };
-		6516428521F804D400F29B16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6516428421F804D400F29B16 /* Assets.xcassets */; };
 		6516428821F804D400F29B16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6516428621F804D400F29B16 /* LaunchScreen.storyboard */; };
 		6516428B21F804D400F29B16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6516428A21F804D400F29B16 /* main.m */; };
 		651642B421F8061D00F29B16 /* HeadingAngleSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 651642A721F8061D00F29B16 /* HeadingAngleSmall.png */; };
@@ -28,6 +27,7 @@
 		651642BF21F8061D00F29B16 /* TrackingDotHalo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 651642B221F8061D00F29B16 /* TrackingDotHalo@2x.png */; };
 		651642C021F8061D00F29B16 /* TopLib_Op.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 651642B321F8061D00F29B16 /* TopLib_Op.a */; };
 		651642C321F8066900F29B16 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 651642C221F8066900F29B16 /* CoreTelephony.framework */; };
+		6516433921F81BEC00F29B16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6516433821F81BEC00F29B16 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,7 +39,6 @@
 		6516427E21F804CA00F29B16 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		6516427F21F804CA00F29B16 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		6516428221F804CA00F29B16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6516428421F804D400F29B16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6516428721F804D400F29B16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6516428921F804D400F29B16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6516428A21F804D400F29B16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -76,6 +75,7 @@
 		651642B221F8061D00F29B16 /* TrackingDotHalo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TrackingDotHalo@2x.png"; sourceTree = "<group>"; };
 		651642B321F8061D00F29B16 /* TopLib_Op.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = TopLib_Op.a; sourceTree = "<group>"; };
 		651642C221F8066900F29B16 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		6516433821F81BEC00F29B16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,9 +111,9 @@
 		6516427721F804CA00F29B16 /* TMap-Test */ = {
 			isa = PBXGroup;
 			children = (
+				6516433821F81BEC00F29B16 /* Assets.xcassets */,
 				6516427821F804CA00F29B16 /* AppDelegate.h */,
 				6516427921F804CA00F29B16 /* AppDelegate.m */,
-				6516428421F804D400F29B16 /* Assets.xcassets */,
 				6516427B21F804CA00F29B16 /* FirstViewController.h */,
 				6516427C21F804CA00F29B16 /* FirstViewController.m */,
 				6516428921F804D400F29B16 /* Info.plist */,
@@ -251,10 +251,10 @@
 				651642BC21F8061D00F29B16 /* TrackingDot.png in Resources */,
 				651642B921F8061D00F29B16 /* mapbg_tlogo@2x.png in Resources */,
 				651642B621F8061D00F29B16 /* icon_clustering.png in Resources */,
+				6516433921F81BEC00F29B16 /* Assets.xcassets in Resources */,
 				651642BD21F8061D00F29B16 /* TrackingDot@2x.png in Resources */,
 				651642B421F8061D00F29B16 /* HeadingAngleSmall.png in Resources */,
 				6516428821F804D400F29B16 /* LaunchScreen.storyboard in Resources */,
-				6516428521F804D400F29B16 /* Assets.xcassets in Resources */,
 				651642BA21F8061D00F29B16 /* poweredby.png in Resources */,
 				6516428321F804CA00F29B16 /* Main.storyboard in Resources */,
 				651642B821F8061D00F29B16 /* mapbg_tlogo.png in Resources */,

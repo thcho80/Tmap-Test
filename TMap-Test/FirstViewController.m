@@ -12,7 +12,7 @@
 // TMAP_APPKEY
 #define TMAP_APPKEY @"3cc870be-6ac7-40d5-9ccd-167433cb53d1"
 
-@interface FirstViewController ()
+@interface FirstViewController () <TMapViewDelegate, TMapGpsManagerDelegate>
 
 @property (weak, nonatomic) IBOutlet UIView *mapContainerView;
 
@@ -25,8 +25,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    _mapView = [[TMapView alloc] initWithFrame:self.mapContainerView.bounds];
+    [self createMapView];
     
+    
+}
+
+- (void)createMapView {
+    _mapView = [[TMapView alloc] initWithFrame:self.mapContainerView.bounds];
     [_mapView setAutoresizingMask:UIViewAutoresizingFlexibleWidth|UIViewAutoresizingFlexibleHeight];
     [_mapView setDelegate:self];
     [_mapView setGpsManagersDelegate:self];
@@ -34,5 +39,32 @@
     [self.mapContainerView addSubview:_mapView];
 }
 
+#pragma mark - TMapViewDelegate (TMapApiKey)
+// setSKTMapApiKey: 성공시 발생하는 callback
+- (void)SKTMapApikeySucceed
+{
+    NSLog(@"SKTMapApikeySucceed");
+}
+
+// setSKTMapApiKey: 실패시 발생하는 callback
+- (void)SKTMapApikeyFailed:(NSError*)error
+{
+    NSLog(@"SKTMapApikeyFailed : %@", [error localizedDescription]);
+}
+
+#pragma mark - TMapViewDelegate
+- (void)onClick:(TMapPoint *)TMP
+{
+    NSLog(@"onClick: %@", TMP);
+}
+
+#pragma mark - TMapGpsManagerDelegate
+- (void)headingChanged:(double)heading {
+    
+}
+
+- (void)locationChanged:(TMapPoint *)newTmp {
+    
+}
 
 @end

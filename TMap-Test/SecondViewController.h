@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TMapView.h"
 
-@interface SecondViewController : UIViewController
+@interface SecondViewController : UIViewController <TMapViewDelegate, TMapPathDelegate>
 
 
 @end

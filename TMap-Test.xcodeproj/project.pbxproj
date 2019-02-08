@@ -28,6 +28,7 @@
 		6516428B21F804D400F29B16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6516428A21F804D400F29B16 /* main.m */; };
 		651642C321F8066900F29B16 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 651642C221F8066900F29B16 /* CoreTelephony.framework */; };
 		6516433921F81BEC00F29B16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6516433821F81BEC00F29B16 /* Assets.xcassets */; };
+		654DEAA8220D2EDB00AA31FC /* LocationDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 654DEAA7220D2EDB00AA31FC /* LocationDetailsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +77,8 @@
 		6516428A21F804D400F29B16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		651642C221F8066900F29B16 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		6516433821F81BEC00F29B16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		654DEAA6220D2EDB00AA31FC /* LocationDetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocationDetailsViewController.h; sourceTree = "<group>"; };
+		654DEAA7220D2EDB00AA31FC /* LocationDetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocationDetailsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +175,8 @@
 				6516427921F804CA00F29B16 /* AppDelegate.m */,
 				6516427B21F804CA00F29B16 /* CurrentLocationViewController.h */,
 				6516427C21F804CA00F29B16 /* CurrentLocationViewController.m */,
+				654DEAA6220D2EDB00AA31FC /* LocationDetailsViewController.h */,
+				654DEAA7220D2EDB00AA31FC /* LocationDetailsViewController.m */,
 				6516428921F804D400F29B16 /* Info.plist */,
 				6516428621F804D400F29B16 /* LaunchScreen.storyboard */,
 				6516428A21F804D400F29B16 /* main.m */,
@@ -276,6 +281,7 @@
 				6516427A21F804CA00F29B16 /* AppDelegate.m in Sources */,
 				6516428B21F804D400F29B16 /* main.m in Sources */,
 				6516427D21F804CA00F29B16 /* CurrentLocationViewController.m in Sources */,
+				654DEAA8220D2EDB00AA31FC /* LocationDetailsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

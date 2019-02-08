@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "TMapView.h"
 
-@interface CurrentLocationViewController : UIViewController <TMapViewDelegate, TMapGpsManagerDelegate, TMapPathDelegate>
+@interface CurrentLocationViewController : UIViewController <TMapViewDelegate, TMapGpsManagerDelegate, TMapPathDelegate, TMapTapiDelegate>
 
 @property (weak, nonatomic) IBOutlet UILabel *messageLabel;
 @property (weak, nonatomic) IBOutlet UILabel *latitudeLabel;
